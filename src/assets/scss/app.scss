@@ -1,0 +1,163 @@
+@import 'settings';
+@import 'foundation-emails';
+@import 'footer';
+// @import 'product';
+// @import 'colors';
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i');
+
+@media only screen {
+    html {
+        min-height: 100%;
+        background: #f3f3f3
+    }
+
+        td,
+        a,
+        h1,
+        h2,
+        h3,
+        h4,
+        p,
+        li,
+        div,
+        span {
+            font-family: 'Open Sans', sans-serif !important;
+        }
+    }
+
+
+.top-text {
+    font-size: 12px;
+}
+
+p.view-online {
+    background: $body-background;
+    color: #999999;
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.view-online a {
+    font-weight: normal;
+    text-decoration: underline;
+    color: #999999;
+}
+
+td {
+    hyphens: none;
+    -moz-hyphens: none;
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+}
+
+a, a:visited, a:hover {
+    text-decoration: underline;
+    font-weight: normal;
+    color: #005587;
+}
+
+table.button table td a {
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+table.button table td {
+    text-align: center !important;
+}
+
+.signature img {
+    max-width: 200px;
+}
+
+.headline {
+    background: #76bd22;
+}
+
+.headline h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 28px;
+    color: #005587;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+.signature p {
+    font-size: 14px;
+}
+
+.preview-subject {
+    font-family: monospace;
+    border: 2px dashed orange;
+    padding: 20px;
+    background: #ffffff;
+}
+
+// <br class="hide-hardbreak">
+
+.vsl-logo {
+    max-width: 200px;
+}
+
+.no-bottom-padding {
+    padding-bottom: 0 !important;
+}
+
+.no-bottom-margin {
+    margin-bottom: 0 !important;
+}
+
+sup {
+    font-size: 12px;
+    line-height: 12px;
+    display: inline-block;
+    margin-left: 3px;
+}
+
+.three-col-logo {
+    width: 130px;
+}
+//.product-name {
+//    white-space: nowrap;
+//}
+
+@media only screen and (max-width: 616px) {
+    .social-media img {
+        width: 42px !important;
+        height: 42px !important;
+        margin: 0 5px;
+    }
+    .large-float-right {
+        display: inline;
+        float: right;
+    }
+    .hide-hardbreak {
+        display: none;
+    }
+    .three-col-logo {
+        width: 160px !important;
+    }
+    .vsl-logo {
+        max-width: 154px;
+    }
+    .rep-photo {
+        width: 96px !important;
+    }
+}

@@ -1,0 +1,55 @@
+.product-table.literacy .product-header {
+    background: #ffbf3d;
+}
+
+// math product styles
+
+.math {
+    border-color: #76bd22;
+}
+
+.product-table.math .product-header {
+    background: #76bd22;
+}
+
+// personal development styles
+
+.pd {
+    border-color: #ff6d10;
+}
+
+.product-table.pd .product-header {
+    background: #ff6d10;
+}
+
+.product-content p {
+    font-size: 14px;
+}
+
+// all product boxes
+
+table.product-table {
+    border-width: 2px;
+    border-style: solid;
+}
+
+.product-header {
+    text-align: center;
+}
+
+.product-header h2 {
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.product-content {
+    text-align: center;
+}
+
+// literacy product styles
+
+.literacy {
+    border-color: #ffbf3d;
+}
